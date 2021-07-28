@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10sp</item>
+        <item name="android:ems">10</item>
+        <item name="android:background">@color/form_items_background</item>
+        <item name="android:textColorHint">@color/text_general</item>
+        <item name="android:textColor">@color/text_general</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Button_General">
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@color/text_general</item>
+        <item name="android:textColorHint">@color/form_items_background</item>
+        <item name="android:backgroundTint">@color/text_general</item>
+        <item name="android:textColor">@color/form_items_background</item>
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:layout_margin">10sp</item>
+
+    </style>
+
+    <style name="textView">
+        <item name="android:background">@color/form_items_background</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textColor">@color/text_general</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">3sp</item>
+        <item name="android:layout_margin">10sp</item>
+        <item name="android:scrollHorizontally">false</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:autoLink">web</item>
+        <item name="android:textColorLink">#03A9F4</item>
+    </style>
+
+    <style name="textViewTitle">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textColor">@color/text_general</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">3sp</item>
+        <item name="android:layout_margin">10sp</item>
+        <item name="android:scrollHorizontally">false</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+</resources>

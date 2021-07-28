@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/textWeight"
+        style="@style/TextButton"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/weight_hint"
+        app:layout_constraintEnd_toStartOf="@+id/btnCalculate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <TextView
+        android:id="@+id/textResult"
+        style="@style/textView"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHeight" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/textView"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/HowIsCalculated"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textResult" />
+
+    <EditText
+        android:id="@+id/textHeight"
+        style="@style/TextButton"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="37dp"
+        android:hint="@string/height_hint"
+        app:layout_constraintEnd_toStartOf="@+id/btnCalculate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textWeight" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        style="@style/Button_General"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="8dp"
+        app:icon="@drawable/ic_continue_foreground"
+        app:layout_constraintStart_toEndOf="@+id/textWeight"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        style="@style/textViewTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="31dp"
+        android:text="Calculadora IMC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

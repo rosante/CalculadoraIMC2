@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculadora IMC 2</string>
+    <string name="weight_hint">Peso (Ex: 60.5)</string>
+    <string name="height_hint">Altura (Ex: 1.76)</string>
+    <string name="HowIsCalculated">O IMC é a relação entre peso e altura e o cálculo é feito de acordo com a fórmula: IMC = peso/ (altura x altura), devendo o peso estar em kg e a altura em metro, e o resultado é dado em kg/m2. Depois de obter o resultado, é possível verificar em que faixa o IMC se encontra. Fonte: https://www.tuasaude.com/calculadora/imc/</string>
+    <string name="HeightOrWeightIsNull">Digite o Peso e a Medida para calcular seu IMC</string>
+</resources>
